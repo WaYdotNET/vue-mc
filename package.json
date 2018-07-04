@@ -68,6 +68,7 @@
         "vue": "^2.2"
     },
     "scripts": {
+        "prepare": "npm run build",
         "build": "rollup -c",
         "lint": "eslint ./src/",
         "test": "nyc mocha ./test",
