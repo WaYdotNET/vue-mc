@@ -512,7 +512,7 @@ class Base {
      * @returns {Promise}
      */
     fetch(options = {}) {
-        let config = () => _.defaults(options, {
+        let config = () => _.defaultsDeep(options, {
             url:     this.getFetchURL(),
             method:  this.getFetchMethod(),
             params:  this.getFetchQuery(),
