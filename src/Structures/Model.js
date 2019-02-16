@@ -168,7 +168,7 @@ class Model extends Base {
      */
     memoize() {
         let memoized = [
-            'validation',  //   \
+            //'validation',  //   \
             'defaults',    //   | These do not need to be evaluated every time.
             'routes',      //  /
         ];
